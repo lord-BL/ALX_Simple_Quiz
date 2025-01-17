@@ -7,7 +7,7 @@ function checkAnswer() {
     feedback.textContent = "Correct! Well done.";
   } else {
     let feedback = document.getElementById("feedback");
-    feedback.textContent = "Thats incorrect. Try again!";
+    feedback.textContent = "That's incorrect. Try again!";
   }
 }
 let submitAnswer = document.getElementById("submit-answer");
